@@ -78,7 +78,7 @@ $(document).ready(function(){
   // slider
 $(document).ready(function(){
   $('.team-slide-content').owlCarousel({
-    items: 3,
+    items: 1,
     loop: true,
     autoplay: false,
     autoplayTimeout: 3000,
@@ -86,32 +86,27 @@ $(document).ready(function(){
     dotsEach:true,
     margin:30,
     responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        200:{
-          item:1,
-          nav:true
-        },
-        600:{
-          item:2,
-          nav:true
-        },
-        900:{
-            items:1,
-            nav:true
-        },
-        980:{
-          
-        },
-        
-        // 1000:{
-        //     items:3,
+    // responsive:{
+    //     0:{
+    //         items:1,
             
-        // }
-      }
+    //     },
+    //     200:{
+    //       item:1,
+         
+    //     },
+    //     800:{
+    //       item:1,
+    //     },
+    //     900:{
+    //         items:2,
+           
+    //     },  
+    //     1000:{
+    //         items:3,
+            
+    //     }
+    //   }
    
   });
 });
