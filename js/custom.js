@@ -77,14 +77,14 @@ $(document).ready(function(){
 
   // slider
 $(document).ready(function(){
-  $('.team-slide-content ').owlCarousel({
+  $('.team-slide-content').owlCarousel({
     items: 3,
     loop: true,
     autoplay: false,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dotsEach:true,
-    margin:10,
+    margin:30,
     responsiveClass:true,
     responsive:{
         0:{
@@ -93,22 +93,24 @@ $(document).ready(function(){
         },
         200:{
           item:1,
+          nav:true
         },
-        400:{
-          item:1,
+        600:{
+          item:2,
+          nav:true
         },
         900:{
             items:1,
-            nav:false
+            nav:true
         },
         980:{
-          item:1,
+          
         },
         
-        1000:{
-            items:3,
+        // 1000:{
+        //     items:3,
             
-        }
+        // }
       }
    
   });
@@ -118,9 +120,9 @@ $(document).ready(function(){
   $('#vertical').lightSlider({
     item: 1,
     loop: true,
-    easing: 'upDown',
+    easing: 'inOut',
     vertical:true,
-    verticalHeight:250,
+    verticalHeight:280,
     adaptiveHeight:true,
     prevHtml: '<i class="fas fa-arrow-up"></i>',
     nextHtml: '<i class="fas fa-arrow-down"></i>',

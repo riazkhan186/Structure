@@ -1109,6 +1109,44 @@ ul.lSPager.lSpg {
     display: none;
 }
 
+@media screen and (max-width:768px){
+    .testimonial{
+        padding: 50px 0 150px 0;
+        background-color: #f8f8f8;
+    }
+    .testimonial-content{
+        padding: 30px 0px 90px 20px;
+        width: 450px;
+        height: 300px;   
+       margin: 70px auto 0 auto;
+    
+    }
+    .lSSlideOuter.vertical .lSAction>a {
+        left: 90%;
+        margin-left: 8px;
+        margin-top: 70px;
+        padding-top: 2px;
+        font-size: 20px;
+    
+    }
+}
+@media screen and (max-width:576px){
+    .testimonial-content{
+        padding: 30px 0px 20px 10px;
+        width: 375px;
+        height: 320px;   
+       margin: 70px auto 0 auto;
+    
+    }
+    .lSSlideOuter.vertical .lSAction>a {
+        left: 88%;
+        margin-left: 8px;
+        margin-top: 70px;
+        padding-top: 2px;
+        font-size: 20px;
+    
+    }
+}
 
 .logos{
     padding: 30px 0;
@@ -1117,9 +1155,11 @@ ul.lSPager.lSpg {
     box-shadow: -10px 10px 15px #f7f7f7;
     position: relative;
     top: -55px;
+
 }
 .logos img{
-    margin-left: 120px;
+   margin-top: 20px;
+   padding: 0 20px;
 }
 .everywhere-content{
     padding: 50px 0px 50px 0px;
@@ -1195,7 +1235,7 @@ ul.lSPager.lSpg {
 .newsletter h4{
     font-size: 18px;
     font-weight: 400;
-   letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 .newsletter h3{
     font-size: 36px;
@@ -1226,6 +1266,68 @@ ul.lSPager.lSpg {
     outline: none;
     border-radius: 5px;
 }
+@media screen and (max-width:1200px){
+    .newsletter h4{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .newsletter h3{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .newsletter .email{
+        width: 59%;
+        height: 55px; 
+    }
+    .newsletter .button{
+        width: 39%;
+    }
+}
+@media screen and (max-width:992px){
+    .newsletter h4{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+    .newsletter h3{
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .newsletter .email{
+        width: 59%;
+        height: 55px; 
+    }
+    .newsletter .button{
+        width: 39%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .newsletter{
+        padding: 40px 0;
+        background-color: #f8f8f8;
+    }
+    .newsletter h4{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .newsletter h3{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .newsletter .input-box{
+        margin-top: 10px;
+    }
+    .newsletter .email{
+        width: 60%;
+        height: 55px; 
+    }
+    .newsletter .button{
+        width: 39%;
+    }
+}
 /* testimonia end */
 /* pricing  start*/
 .pricing{
@@ -1239,6 +1341,7 @@ ul.lSPager.lSpg {
     box-shadow: -15px 15px 50px 10px #e2e0e0;
     padding: 20px 10px 0px 10px;
     color: #404040;
+    margin-top: 30px;
 }
 .pricing-packege h3{
     font-family: 'Roboto';
@@ -1277,6 +1380,24 @@ ul.lSPager.lSpg {
 .pricing-packege button:hover{
     background-color:#eec400 ;
 }
+@media screen and (max-width:992px){
+    .pricing-tables .enterprise {
+        max-width: 50%;
+        margin: 30px auto 0 auto;
+    }
+}
+@media screen and (max-width:576px){
+    .pricing-tables{
+        margin-top: 10px;
+    }
+    .pricing{
+        padding: 50px 0;
+        text-align: center;   
+    }
+    .pricing-tables .enterprise {
+        max-width: 100%;
+    }
+}
 /* pricing end */
 .blog{
     padding: 100px 0;
@@ -1286,7 +1407,7 @@ ul.lSPager.lSpg {
     padding-top: 50px;
 }
 .blog .blog-content img{
-    max-width: 100%;
+    width: 100%;
 }
 .blog .blog-content .blog-text{
     background-color: #ffffff;
@@ -1321,6 +1442,33 @@ ul.lSPager.lSpg {
     color: #404040;
     text-decoration: none;
 }
+
+@media screen and (max-width:992px){
+    .blog .blog-inner-content{
+        width: 50%;
+        margin: 20px auto 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    .blog{
+        padding: 50px 0;
+        background-color: #f8f8f8;
+    }
+    .blog-content .blog-text h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:576px){
+   
+    .blog-content .blog-text h3{
+        font-size: 24px;
+    }
+    .blog .blog-inner-content{
+        width: 100%;
+        margin: 20px auto 0 auto;
+    }
+}
 /* bloog end */
 /* contact start */
 .google-map{
@@ -1329,8 +1477,9 @@ ul.lSPager.lSpg {
     z-index: -999;
 }
 .contact{
-    padding: 50px 0;
+    padding: 0px 0;
     background-color: #f8f8f8;
+   
 }
 .contact-form{
     padding: 50px 50px;
@@ -1340,6 +1489,10 @@ ul.lSPager.lSpg {
     top: -300px;
     background-color: #ffffff;
     
+}
+.contact-form h2{
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 .contact .contact-form input{
@@ -1361,7 +1514,9 @@ ul.lSPager.lSpg {
     outline: none;
     margin: 20px 0;
 }
-
+.address{
+    padding: 0 0 20px 0;
+}
 .address .inner-content .icon{
     text-align: center;
     font-size: 25px;
@@ -1383,6 +1538,31 @@ ul.lSPager.lSpg {
     font-family: 'Raleway';
     margin: 0 0 0 0 ;
 }
+.address .inner-content{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:992px){
+    .address .inner-content h3{
+        font-size: 20px;
+        font-weight: 900;
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        margin: 3px 0 0 0 ;
+    }
+    .address .inner-content h6{
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Raleway';
+        margin: 0 0 0 0 ;
+    }
+}
+@media screen and (max-width:576px){
+    .address .inner-content {
+        margin-left: 10px;
+    }
+}
+
 /* contact end */
 /* footer start */
 .footer{
@@ -1472,6 +1652,11 @@ ul.lSPager.lSpg {
     padding-top: 5px;
     margin-right: 3px;
 
+}
+@media screen and (max-width:992px){
+    .footer{
+        padding: 10px 0;
+    }
 }
 .copyright{
     padding: 10px 0 1px 0;
