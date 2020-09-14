@@ -1046,8 +1046,8 @@ body{
     color: #626262;
     background-color: #ffffff;
     border-radius: 20px;
-   margin: 70px auto 0 auto;
-   box-shadow: -15px 15px 25px  rgb(236, 236, 236);
+     margin: 70px auto 0 auto;
+    box-shadow: -15px 15px 25px  rgb(236, 236, 236);
 }
 .testimonial-content ul li{
     list-style: none;
@@ -1102,7 +1102,7 @@ body{
 }
 .lSSlideOuter.vertical .lSAction>.lSNext {
     background-position: 31px -31px;
-    bottom: 88px;
+    bottom: 130px;
     top: auto;
 }
 ul.lSPager.lSpg {
@@ -1321,7 +1321,7 @@ ul.lSPager.lSpg {
         margin-top: 10px;
     }
     .newsletter .email{
-        width: 60%;
+        width: 59%;
         height: 55px; 
     }
     .newsletter .button{

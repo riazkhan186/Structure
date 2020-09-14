@@ -78,36 +78,33 @@ $(document).ready(function(){
   // slider
 $(document).ready(function(){
   $('.team-slide-content').owlCarousel({
-    items: 1,
-    loop: true,
+    items: 3,
+    // loop: true,
     autoplay: false,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dotsEach:true,
     margin:30,
-    responsiveClass:true,
-    // responsive:{
-    //     0:{
-    //         items:1,
+    responsive:{
+        // 0:{
+        //     items:1,
             
-    //     },
-    //     200:{
-    //       item:1,
+        // },
+        // 200:{
+        //   item:1,
          
-    //     },
-    //     800:{
-    //       item:1,
-    //     },
-    //     900:{
-    //         items:2,
-           
-    //     },  
-    //     1000:{
-    //         items:3,
-            
-    //     }
-    //   }
-   
+        // },
+        600:{
+          item:1,
+        },
+        900:{
+            items:2,
+            dotsEach:true,
+        },  
+        1000:{
+            items:3,
+        }
+      }
   });
 });
 // lightSlider
