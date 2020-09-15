@@ -78,14 +78,13 @@ $(document).ready(function(){
   // slider
 $(document).ready(function(){
   $('.team-slide-content').owlCarousel({
-    items: 3,
-    // loop: true,
+   
+    loop: true,
     autoplay: false,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     dotsEach:true,
     margin:30,
-    
     responsive:{
         0:{
             items:1,
@@ -97,9 +96,12 @@ $(document).ready(function(){
           items:2,
         },
         992:{
-            items:3,
+            items:2,
             
         },  
+        1200:{
+          items:3,
+        }
         
       }
   });
