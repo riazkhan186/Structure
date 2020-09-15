@@ -932,11 +932,8 @@ body{
     text-align: right;
     margin-left: 20px;
     margin-bottom: -20px;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
-
-
-
 .member-content{
     border: 20px solid #eec400;
     width: 340px;
@@ -966,11 +963,9 @@ body{
 }
 .team-overlay-content{
     border: 20px solid black;
-    width: 100%;
+    width: 105%;
     height: 100%;
     position: relative;
-    /* top: 10%; */
-    /* left: 15px;  */
 }
 
 .overlay-details{

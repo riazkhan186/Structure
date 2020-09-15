@@ -85,25 +85,22 @@ $(document).ready(function(){
     autoplayHoverPause: true,
     dotsEach:true,
     margin:30,
+    
     responsive:{
-        // 0:{
-        //     items:1,
-            
-        // },
-        // 200:{
-        //   item:1,
-         
-        // },
-        600:{
-          item:1,
+        0:{
+            items:1,
         },
-        900:{
-            items:2,
-            dotsEach:true,
-        },  
-        1000:{
+        576:{
+          items:1,
+        },
+        768:{
+          items:2,
+        },
+        992:{
             items:3,
-        }
+            
+        },  
+        
       }
   });
 });
