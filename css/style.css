@@ -707,13 +707,14 @@ body{
     font-size: 40px;
     text-align: center;
 }
-.skilled-content .inner-content h4{
+.skilled-content .inner-content h4 a{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     color: #404040;
     text-transform: uppercase;
     padding-top: 5px;
+    text-decoration: none;
 }
 .skilled-content .inner-content h4 span{
     font-weight: 900;
@@ -1464,7 +1465,7 @@ ul.lSPager.lSpg {
     padding: 40px 20px ;
     color: #404040;
 }
-.blog-content .blog-text h3{
+.blog-content .blog-text h3 a{
     font-size: 24px;
     font-family: 'Raleway';
     text-transform: capitalize;
@@ -1504,14 +1505,14 @@ ul.lSPager.lSpg {
         padding: 50px 0;
         background-color: #f8f8f8;
     }
-    .blog-content .blog-text h3{
+    .blog-content .blog-text h3 a{
         font-size: 20px;
     }
 }
 
 @media screen and (max-width:576px){
    
-    .blog-content .blog-text h3{
+    .blog-content .blog-text h3 a{
         font-size: 24px;
     }
     .blog .blog-inner-content{
@@ -1579,12 +1580,13 @@ ul.lSPager.lSpg {
     padding: 10px 0;
     border: 2px dotted #eec400;
 }
-.address .inner-content h3{
+.address .inner-content h3 a{
     font-size: 24px;
     font-weight: 900;
     font-family: 'Roboto';
     text-transform: uppercase;
     margin: 3px 0 0 0 ;
+    color: #222020;
 }
 .address .inner-content h6{
     font-size: 18px;
@@ -1597,7 +1599,7 @@ ul.lSPager.lSpg {
 }
 
 @media screen and (max-width:992px){
-    .address .inner-content h3{
+    .address .inner-content h3 a{
         font-size: 20px;
         font-weight: 900;
         font-family: 'Roboto';
